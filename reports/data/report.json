@@ -5,7 +5,7 @@
     "type": "TRADER_REGULAR",
     "client_type": "trader",
     "template_file": "trader_regular_dashboard.html",
-    "generated_at": "2026-06-11 06:45",
+    "generated_at": "2026-06-11 08:32",
     "version": "0.3.2"
   },
   "trader": {
@@ -14,7 +14,7 @@
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-07",
-    "current_period": "2026-06-01 — 2026-06-07"
+    "current_period": "2026-06-01 ? 2026-06-07"
   },
   "score": {
     "qud_tda_score": 62,
@@ -345,8 +345,8 @@
     ]
   },
   "comparison": {
-    "previous_period": "2026-05-25 — 2026-05-31",
-    "current_period": "2026-06-01 — 2026-06-07",
+    "previous_period": "2026-05-25 ? 2026-05-31",
+    "current_period": "2026-06-01 ? 2026-06-07",
     "items": [
       {
         "metric": "QUD TDA Score",
