@@ -1,0 +1,363 @@
+{
+  "report": {
+    "request_id": "REQ-AUTO-20260613-Profile_A_Disciplined",
+    "title": "QUD TDA Regular Report",
+    "type": "TRADER_REGULAR",
+    "client_type": "trader",
+    "template_file": "trader_regular_dashboard.html",
+    "generated_at": "2026-06-17 07:21",
+    "version": "0.3.2"
+  },
+  "trader": {
+    "trader_id": "Profile_A_Disciplined"
+  },
+  "period": {
+    "start": "2026-06-07",
+    "end": "2026-06-13",
+    "current_period": "2026-06-07 ? 2026-06-13"
+  },
+  "score": {
+    "qud_tda_score": 96,
+    "risk_mode": "low",
+    "trust_level": "promising",
+    "red_flags_count": 0,
+    "main_damage_source": "block_C_score",
+    "recommended_next_step": "Standard observation"
+  },
+  "leaks": {
+    "risk_leak_score": 4,
+    "sl_leak_score": 0,
+    "behavior_leak_score": 10,
+    "execution_leak_score": 0,
+    "main_leak": "Behavior Leak",
+    "summary": "Main quality leak: Behavior Leak"
+  },
+  "risk": {
+    "avg_pct": 0.67,
+    "median_pct": 0.68,
+    "max_pct": 0.72,
+    "std_pct": 0.04,
+    "cv_pct": 0.07,
+    "trades_above_2pct": 0,
+    "trades_above_3pct": 0,
+    "daily_dd_max_pct": 0.4,
+    "trade_series": [
+      {
+        "trade_id": "TR0001",
+        "risk_pct": 0.65
+      },
+      {
+        "trade_id": "TR0002",
+        "risk_pct": 0.72
+      },
+      {
+        "trade_id": "TR0003",
+        "risk_pct": 0.68
+      },
+      {
+        "trade_id": "TR0004",
+        "risk_pct": 0.7
+      },
+      {
+        "trade_id": "TR0005",
+        "risk_pct": 0.6
+      },
+      {
+        "trade_id": "TR0006",
+        "risk_pct": 0.65
+      },
+      {
+        "trade_id": "TR0007",
+        "risk_pct": 0.72
+      }
+    ],
+    "distribution_buckets": [
+      {
+        "bucket": "0-0.25%",
+        "count": 0
+      },
+      {
+        "bucket": "0.25-0.5%",
+        "count": 0
+      },
+      {
+        "bucket": "0.5-0.75%",
+        "count": 0
+      },
+      {
+        "bucket": "0.75-1.0%",
+        "count": 0
+      },
+      {
+        "bucket": "1.0%+",
+        "count": 0
+      }
+    ]
+  },
+  "sl": {
+    "trades_without_sl_at_open": 0,
+    "trades_with_sl_at_open": 7,
+    "no_sl_warning_count": 0,
+    "sl_set_count": 0,
+    "sl_changed_count": 0,
+    "sl_removed_count": 0,
+    "risk_increase_after_sl_change_count": 0,
+    "max_risk_after_sl_change_pct": 0,
+    "event_timeline": [
+      {
+        "ticket": "700001",
+        "event": "POSITION_OPENED"
+      },
+      {
+        "ticket": "700001",
+        "event": "PLAN_FACT_DEVIATION_CALCULATED"
+      },
+      {
+        "ticket": "700001",
+        "event": "POSITION_CLOSED"
+      },
+      {
+        "ticket": "700002",
+        "event": "POSITION_OPENED"
+      },
+      {
+        "ticket": "700002",
+        "event": "TRADE_AFTER_WIN"
+      },
+      {
+        "ticket": "700002",
+        "event": "PLAN_FACT_DEVIATION_CALCULATED"
+      },
+      {
+        "ticket": "700002",
+        "event": "POSITION_CLOSED"
+      },
+      {
+        "ticket": "700003",
+        "event": "POSITION_OPENED"
+      },
+      {
+        "ticket": "700003",
+        "event": "TRADE_AFTER_LOSS"
+      },
+      {
+        "ticket": "700003",
+        "event": "PLAN_FACT_DEVIATION_CALCULATED"
+      },
+      {
+        "ticket": "700003",
+        "event": "POSITION_CLOSED"
+      },
+      {
+        "ticket": "700004",
+        "event": "POSITION_OPENED"
+      },
+      {
+        "ticket": "700004",
+        "event": "TRADE_AFTER_WIN"
+      },
+      {
+        "ticket": "700004",
+        "event": "PLAN_FACT_DEVIATION_CALCULATED"
+      },
+      {
+        "ticket": "700004",
+        "event": "POSITION_CLOSED"
+      },
+      {
+        "ticket": "700005",
+        "event": "POSITION_OPENED"
+      },
+      {
+        "ticket": "700005",
+        "event": "PLAN_FACT_DEVIATION_CALCULATED"
+      },
+      {
+        "ticket": "700005",
+        "event": "POSITION_CLOSED"
+      },
+      {
+        "ticket": "700006",
+        "event": "POSITION_OPENED"
+      },
+      {
+        "ticket": "700006",
+        "event": "TRADE_AFTER_WIN"
+      },
+      {
+        "ticket": "700006",
+        "event": "PLAN_FACT_DEVIATION_CALCULATED"
+      },
+      {
+        "ticket": "700006",
+        "event": "POSITION_CLOSED"
+      },
+      {
+        "ticket": "700007",
+        "event": "POSITION_OPENED"
+      },
+      {
+        "ticket": "700007",
+        "event": "TRADE_AFTER_LOSS"
+      },
+      {
+        "ticket": "700007",
+        "event": "PLAN_FACT_DEVIATION_CALCULATED"
+      },
+      {
+        "ticket": "700007",
+        "event": "POSITION_CLOSED"
+      }
+    ]
+  },
+  "behavior": {
+    "trade_after_loss_count": 2,
+    "risk_after_loss_avg_pct": 0.7,
+    "risk_after_win_avg_pct": 0.69,
+    "risk_after_1_loss_pct": 0.7,
+    "risk_after_2_losses_pct": 0,
+    "risk_after_3_losses_pct": 0,
+    "max_risk_after_loss_streak_pct": 0.72,
+    "position_size_increased_after_loss_count": 0,
+    "revenge_trading_signal_count": 0,
+    "avg_minutes_after_loss_to_next_trade": 480
+  },
+  "plan_fact": {
+    "trades_count": 7,
+    "excluded_no_sl_count": 0,
+    "planned_risk_avg_pct": 0.67,
+    "actual_loss_avg_pct": 0.2,
+    "deviation_avg_pct": -0.48,
+    "deviation_max_pct": 0,
+    "negative_deviation_trades": 0,
+    "points": [
+      {
+        "trade_id": "TR0001",
+        "planned": 0.65,
+        "actual": 0
+      },
+      {
+        "trade_id": "TR0002",
+        "planned": 0.72,
+        "actual": 0.72
+      },
+      {
+        "trade_id": "TR0003",
+        "planned": 0.68,
+        "actual": 0
+      },
+      {
+        "trade_id": "TR0004",
+        "planned": 0.7,
+        "actual": 0
+      },
+      {
+        "trade_id": "TR0005",
+        "planned": 0.6,
+        "actual": 0
+      },
+      {
+        "trade_id": "TR0006",
+        "planned": 0.65,
+        "actual": 0.65
+      },
+      {
+        "trade_id": "TR0007",
+        "planned": 0.72,
+        "actual": 0
+      }
+    ]
+  },
+  "findings": {
+    "items": [
+      {
+        "text": "Post-loss behavior is the main leak: risk behavior changes under stress.",
+        "severity": "low",
+        "source_block": "Block C",
+        "metric": "main_leak"
+      },
+      {
+        "text": "SL protection remained structurally stable during the period.",
+        "severity": "low",
+        "source_block": "Block B",
+        "metric": "trades_without_sl_at_open"
+      },
+      {
+        "text": "Core risk behavior is within acceptable stability limits.",
+        "severity": "low",
+        "source_block": "Block A",
+        "metric": "risk_cv_pct"
+      }
+    ]
+  },
+  "recommendations": {
+    "items": [
+      {
+        "action": "After a losing trade, keep risk within baseline and avoid immediate re-entry.",
+        "metric": "risk_after_loss_avg_pct",
+        "target_behavior": "reduce main leak",
+        "priority": "medium"
+      },
+      {
+        "action": "Do not remove SL after entry and avoid risk-increasing SL changes.",
+        "metric": "sl_removed_count",
+        "target_behavior": "stable SL protection",
+        "priority": "medium"
+      },
+      {
+        "action": "After a losing trade, keep risk within baseline and avoid immediate re-entry.",
+        "metric": "risk_after_loss_avg_pct",
+        "target_behavior": "post-loss discipline",
+        "priority": "medium"
+      }
+    ]
+  },
+  "comparison": {
+    "previous_period": "2026-05-25 ? 2026-05-31",
+    "current_period": "2026-06-07 ? 2026-06-13",
+    "items": [
+      {
+        "metric": "QUD TDA Score",
+        "previous": "92",
+        "current": "96",
+        "change": "4",
+        "status": "improved"
+      },
+      {
+        "metric": "Risk CV",
+        "previous": "0.18",
+        "current": "0.0651289243599127",
+        "change": "-0.114871075640087",
+        "status": "improved"
+      },
+      {
+        "metric": "Avg Risk After Loss",
+        "previous": "0.7",
+        "current": "0.7",
+        "change": "0",
+        "status": "unchanged"
+      },
+      {
+        "metric": "No-SL Trades",
+        "previous": "0",
+        "current": "0",
+        "change": "0",
+        "status": "unchanged"
+      },
+      {
+        "metric": "Plan vs Fact Deviation",
+        "previous": "0.05",
+        "current": "-0.478571428571429",
+        "change": "-0.528571428571429",
+        "status": "improved"
+      },
+      {
+        "metric": "Main Leak",
+        "previous": "Behavior Leak",
+        "current": "Behavior Leak",
+        "change": "unchanged",
+        "status": "unchanged"
+      }
+    ]
+  }
+}
