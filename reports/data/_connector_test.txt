@@ -1,1 +1,0 @@
-QUD connector write test
